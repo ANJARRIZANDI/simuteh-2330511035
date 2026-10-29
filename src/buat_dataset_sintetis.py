@@ -15,7 +15,7 @@ import csv
 import cv2 
 import numpy as np 
   
-SEED = 1234          # GANTI dengan 4 digit terakhir NIM Anda 
+SEED = 1035          # GANTI dengan 4 digit terakhir NIM Anda 
 N_PER_KELAS = 20     # 20 citra x 3 kelas = 60 citra 
 H, W = 480, 640 
 KELAS = ["sehat", "ringan", "berat"] 
