@@ -85,3 +85,4 @@ def praproses(img_bgr, p=None):
 def simpan_param(p, path="../hasil/param_praproses.json"):
     with open(path, "w") as f:
         json.dump({**PARAM_BAWAAN, **p}, f, indent=2)
+        json.dump({**PARAM_BAWAAN, **p}, f, indent=2)
