@@ -15,7 +15,7 @@ import csv
 import cv2 
 import numpy as np 
   
-SEED = 1035          # GANTI dengan 4 digit terakhir NIM Anda 
+SEED = 1234          # GANTI dengan 4 digit terakhir NIM Anda 
 N_PER_KELAS = 20     # 20 citra x 3 kelas = 60 citra 
 H, W = 480, 640 
 KELAS = ["sehat", "ringan", "berat"] 
@@ -56,8 +56,8 @@ def gambar_bercak(img, mask_daun, mask_bercak, kelas):
     if kelas == "sehat": 
         return 
     n = int(rng.integers(1, 4)) if kelas == "ringan" else int(rng.integers(6, 
-13)) 
- r_min, r_maks = (3, 7) if kelas == "ringan" else (5, 14) 
+13))
+   r_min, r_maks = (3, 7) if kelas == "ringan" else (5, 14) 
     ys, xs = np.where(mask_daun > 0) 
     for _ in range(n): 
         i = int(rng.integers(0, len(xs))) 
@@ -123,4 +123,4 @@ def main():
   
   
 if __name__ == "__main__":
-    main() 
+  main() 
