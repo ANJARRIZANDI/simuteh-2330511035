@@ -76,7 +76,8 @@ simuteh-2330511035/
 │
 ├── src/
 │   ├── utils_cv.py
-│   └── praproses.py
+│   ├── praproses.py
+│   └── data_sintetis.py
 │
 └── README.md
 ```
