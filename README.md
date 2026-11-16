@@ -316,7 +316,13 @@ Reproduksibilitas proyek didukung oleh pencatatan SEED, versi pustaka, dan param
 | Parameter praproses | `param_praproses.json` |
 | Versi repository | `v0.1-praproses` |
 
-Tag `v0.1-praproses` digunakan sebagai penanda versi proyek setelah penyelesaian tahap praproses. Pengembangan selanjutnya mencakup deteksi tepi dan operasi morfologi.
+## Riwayat Versi Proyek
+
+1. **`v0.1-praproses`** digunakan sebagai penanda versi proyek setelah penyelesaian tahap praproses citra.
+
+2. **`v0.2-tepi`** digunakan sebagai penanda versi proyek setelah penyelesaian tahap deteksi tepi.
+
+3. **`v0.3-morfologi`** digunakan sebagai penanda versi proyek setelah penyelesaian tahap operasi morfologi dan komponen terhubung.
 
 ## 10. Repository
 
